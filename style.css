@@ -7,7 +7,7 @@ body {
 /*--- navbar--- */
 
 .navbar {
-    background-color: rgb(109, 190, 190) !important;
+    background-color: rgb(28, 179, 96) !important;
 }
 
 .nav-item {
@@ -69,7 +69,7 @@ body {
 .service-card-body {
     text-align: center;
     color: white;
-    background-color: #000;
+    background-color: #000000;
     height: 200px;
     margin-right: 60px;
     position: absolute;
@@ -91,7 +91,7 @@ body {
 .col-md-6:nth-child(1) .portfolio-img {
     height: 390px;
     width: 390px;
-    background-image: url('ayush (4).jpg');
+    background-image: url('image/Ayushma12.jpg');
     padding: 35px;
     margin: 20px;
     background-position: top;
@@ -100,7 +100,7 @@ body {
 .col-md-6:nth-child(2) .portfolio-img {
     height: 390px;
     width: 390px;
-    background-image: url('ayush (1).jpg');
+    background-image: url('image\Ayushma-logo.png');
     padding: 35px;
     margin: 20px;
     background-position: top;
@@ -109,7 +109,7 @@ body {
 .col-md-6:nth-child(3) .portfolio-img {
     height: 390px;
     width: 390px;
-    background-image: url('ayush (3).jpg');
+    background-image: url('image/workshop.jpeg');
     padding: 35px;
     margin: 20px;
     background-position: 30% 5%;
@@ -118,19 +118,20 @@ body {
 .col-md-6:nth-child(4) .portfolio-img {
     height: 390px;
     width: 390px;
-    background-image: url('ayush (6).jpg');
+    background-image: url('image/Ayushma5.jpg');
     padding: 35px;
     margin: 20px;
     background-position: 50% 5%;
 }
 
 .col-md-6 .portfolio-img .rect {
+    overflow: hidden;
     height: 100%;
     width: 100%;
     border: 2px solid white;
     position: relative;
     z-index: 2;
-    transition: all cubic-bezier(0.6, 0.04, 0.98, 0.335) 0.7s;
+    transition: 0.7s;
 
 
 
@@ -156,7 +157,7 @@ body {
     text-align: center;
     position: absolute;
     top: 60%;
-    transition: all ease-in-out 1s;
+    transition: .7s;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.61);
 }
 
@@ -178,7 +179,7 @@ body {
 
 .footer-logo img{
     height: 40px;
-    width: 126px;
+    width: 140px;
     object-fit: cover;
 }
 .icon li a{
@@ -199,5 +200,16 @@ body {
 .copyright{
     bottom: 0;
     left: 30%;
+
+}
+
+.page-title{position: relative;}
+.page-title::before{position: absolute;content: ''; width: 100%; height: 2px;background-color: #000;bottom: -5px;left: 0;}
+
+.wrapper{
+    height: 100vh;
+}
+#contact{
+   
     width: 100%;
 }
