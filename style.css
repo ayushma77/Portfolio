@@ -7,7 +7,7 @@ body {
 /*--- navbar--- */
 
 .navbar {
-    background-color: rgb(28, 179, 96) !important;
+    background-color: #f8f9fa !important;
 }
 
 .nav-item {
@@ -100,13 +100,14 @@ body {
 .col-md-6:nth-child(2) .portfolio-img {
     height: 390px;
     width: 390px;
-    background-image: url('image\Ayushma-logo.png');
+    background-image: url('image/images.jpeg');
     padding: 35px;
     margin: 20px;
     background-position: top;
 }
 
 .col-md-6:nth-child(3) .portfolio-img {
+    background-size: cover;
     height: 390px;
     width: 390px;
     background-image: url('image/workshop.jpeg');
@@ -187,6 +188,27 @@ body {
     font-size: 20px;
 }
 
+/* Education section */
+#education {
+    padding: 50px 0;
+}
+
+.education-entry {
+    margin-bottom: 30px;
+}
+
+.education-entry h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.education-entry p {
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+   
 /*===== faq section==== */
 .faq{padding-top: 80px;}
 .faq .faq-heading p{margin: 20px 0; font-size: 14px;font-style: italic;color: #ff9f19;}
