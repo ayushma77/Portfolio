@@ -75,6 +75,7 @@ body {
     position: absolute;
     top: 78%;
     transition: top ease-in 0.4s;
+    width: 84%;
 }
 
 .service-card:hover .service-card-body {
@@ -234,4 +235,8 @@ body {
 #contact{
    
     width: 100%;
+}
+
+.education-card{
+    padding: 40px;
 }
